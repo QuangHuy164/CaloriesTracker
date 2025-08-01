@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { NetCalories } from './components/NetCalories';
 import { CaloriesInTake } from './components/CaloriesIntake';
 import { MealEntries } from './components/MealEntries';
+import { AddMeal } from './components/AddMeal';
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
         <NetCalories />
         <CaloriesInTake />
         <MealEntries />
+        <AddMeal />
       </div>
     </div>
   );

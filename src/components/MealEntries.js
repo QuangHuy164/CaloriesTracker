@@ -5,7 +5,7 @@ export const MealEntries = () => {
     <>
       <h3>Food Log</h3>
       <ul id='list' class='list'>
-        <li class='minus'>
+        <li className='minus'>
           Beef <span>+250kcal</span><button class='delete-btn'>x</button>
         </li>
       </ul>
