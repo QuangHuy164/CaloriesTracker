@@ -5,7 +5,7 @@ import { CaloriesInTake } from './components/CaloriesIntake';
 import { MealEntries } from './components/MealEntries';
 import { AddMeal } from './components/AddMeal';
 
-import { GlobalContext, GlobalProvider } from './context/GlobalContext';
+import { GlobalProvider } from './context/GlobalContext';
 function App() {
   return (
     <GlobalProvider>
