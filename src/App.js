@@ -4,9 +4,11 @@ import { NetCalories } from './components/NetCalories';
 import { CaloriesInTake } from './components/CaloriesIntake';
 import { MealEntries } from './components/MealEntries';
 import { AddMeal } from './components/AddMeal';
+
+import { GlobalContext, GlobalProvider } from './context/GlobalContext';
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       <div className='container'>
         <NetCalories />
@@ -14,7 +16,7 @@ function App() {
         <MealEntries />
         <AddMeal />
       </div>
-    </div>
+    </GlobalProvider>
   );
 }
 
