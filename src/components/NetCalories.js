@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { GlobalContext } from '../context/GlobalContext'
 
 export const NetCalories = () => {
+  const {caloriesLog} = useContext(GlobalContext)
   return (
     <>
     <h4>Net Calories</h4>
