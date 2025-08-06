@@ -1,13 +1,14 @@
-import React from 'react'
-
+import React, { useContext } from 'react'
+import { GlobalContext } from '../context/GlobalContext'
+import { Meal } from './Meal';
 export const MealEntries = () => {
+  const {caloriesLog} = useContext(GlobalContext);
   return (
     <>
       <h3>Food Log</h3>
       <ul id='list' className='list'>
-        <li className='minus'>
-          Beef <span>+250kcal</span><button className='delete-btn'>x</button>
-        </li>
+        {caloriesLog.map( caloriesLog => (<Meal key={caloriesLog.id} caloriesLog={caloriesLog} />) )}
+       
       </ul>
     </>
   )
