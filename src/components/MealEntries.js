@@ -5,7 +5,7 @@ export const MealEntries = () => {
   const {caloriesLog} = useContext(GlobalContext);
   return (
     <>
-      <h3>Food Log</h3>
+      <h3>Food and Activities Log</h3>
       <ul id='list' className='list'>
         {caloriesLog.map( caloriesLog => (<Meal key={caloriesLog.id} caloriesLog={caloriesLog} />) )}
        
