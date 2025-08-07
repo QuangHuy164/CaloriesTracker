@@ -31,7 +31,7 @@ export const AddMeal = () => {
                     >
                     <input type="number" value={amount} onChange={(e)=> {setAmount(e.target.value)}} id="amount" placeholder="Enter amount..." />
                 </div>
-                <button className="btn">Add log</button>
+                <button className="btn">Add Log</button>
             </form>
         </>
     )
