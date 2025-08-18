@@ -6,6 +6,7 @@ import { MealEntries } from './components/MealEntries';
 import { AddMeal } from './components/AddMeal';
 
 import { GlobalProvider } from './context/GlobalContext';
+import { Camera } from './components/Camera';
 function App() {
   return (
     <GlobalProvider>
@@ -15,6 +16,7 @@ function App() {
         <CaloriesInTake />
         <MealEntries />
         <AddMeal />
+        <Camera />
       </div>
     </GlobalProvider>
   );
