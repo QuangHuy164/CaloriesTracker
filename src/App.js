@@ -6,7 +6,7 @@ import { MealEntries } from './components/MealEntries';
 import { AddMeal } from './components/AddMeal';
 
 import { GlobalProvider } from './context/GlobalContext';
-import { Camera } from './components/Camera';
+import  Camera  from './components/Camera';
 function App() {
   return (
     <GlobalProvider>

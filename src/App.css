@@ -150,3 +150,9 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+.camera {
+  justify-content: flex-end;
+  flex: none;
+  position:relative;
+}
